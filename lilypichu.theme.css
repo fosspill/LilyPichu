@@ -1,6 +1,5 @@
 /**
 * @name LilyPichu
-* @author Nyria#3863
 * @description A theme based on @Melonturtle_ stream design
 * @invite rtBQX5D3bD
 * @version 1.4
@@ -20,7 +19,7 @@
   /* Background (if you want an image replace it by : 
 
 --background-tertiary-alt: url("image-link"); without that => */
-  --background-tertiary-alt: #ffc7d4;
+  --background-tertiary-alt: #d1c4e9;
 
   /* Border-radius for the whole theme */
   --border-radius: 20px;
@@ -28,34 +27,34 @@
 
 .theme-dark {
   /* Text */
-  --text-normal: #f8e1e5;
-  --header-primary: #f8e1e5;
-  --interactive-normal: #fab1bd;
-  --channels-default: #f8e1e5;
+  --text-normal: #e1d5f8;
+  --header-primary: #e1d5f8;
+  --interactive-normal: #b39ddb;
+  --channels-default: #e1d5f8;
 
-  --text-muted: #e2c1c7;
-  --interactive-muted: #ad8c91;
+  --text-muted: #c1b5e2;
+  --interactive-muted: #8c91ad;
 
-  --header-secondary: #e2c1c7;
-  --interactive-hover: #e2c1c7;
-  --interactive-active: #e2c1c7;
+  --header-secondary: #c1b5e2;
+  --interactive-hover: #c1b5e2;
+  --interactive-active: #c1b5e2;
 
   /* Background color */
-  --background-primary: #5e3640;
-  --background-secondary: #49292f;
-  --background-secondary-alt: #3b1d24;
-  --background-tertiary: #220f14;
-  --background-floating: #221115;
-  --background-accent: #c5536c;
+  --background-primary: #4a3b5e;
+  --background-secondary: #3a2949;
+  --background-secondary-alt: #2d1d3b;
+  --background-tertiary: #1a0f22;
+  --background-floating: #1a1122;
+  --background-accent: #6c53c5;
   --channeltextarea-background: var(--background-secondary);
   --modal-background: var(--background-primary);
-  --background-modifier-hover: #5e36403b;
-  --background-modifier-active: #5e364058;
-  --background-modifier-selected: #5e364068;
-  --toast-background: #5e3640 !important;
-  --toast-header: #3b1d24 !important;
-  --toast-contents: #49292f !important;
-  --toast-border: #49292f !important;
+  --background-modifier-hover: #4a3b5e3b;
+  --background-modifier-active: #4a3b5e58;
+  --background-modifier-selected: #4a3b5e68;
+  --toast-background: #4a3b5e !important;
+  --toast-header: #2d1d3b !important;
+  --toast-contents: #3a2949 !important;
+  --toast-border: #3a2949 !important;
   --input-background: var(--background-secondary);
 
   /* Scrollbar */
@@ -69,7 +68,7 @@
   --deprecated-quickswitcher-input-background: var(--background-primary);
 }
 .colorBrand-3cPPsm {
-  color: #c5536c;
+  color: #6c53c5;
 }
 .colorDefault-CDqZdO.focused-3qFvc8,
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
@@ -78,15 +77,15 @@
 
 /* Buttons */
 .lookFilled-1H2Jvj {
-  background-color: #c5536c !important;
+  background-color: #6c53c5 !important;
 }
 .lookFilled-1H2Jvj:active,
 .lookFilled-1H2Jvj:hover {
-  background-color: #b64a61 !important;
+  background-color: #5a4ab6 !important;
 }
 .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
-  color: #c5536c;
-  border-color: #c5536c;
+  color: #6c53c5;
+  border-color: #6c53c5;
 }
 
 /* Hover background */
@@ -97,29 +96,29 @@
 
 .theme-light {
   /* Text */
-  --text-normal: #a86373;
-  --header-primary: #a86373;
-  --interactive-normal: #a86373;
-  --channels-default: #a86373;
+  --text-normal: #7363a8;
+  --header-primary: #7363a8;
+  --interactive-normal: #7363a8;
+  --channels-default: #7363a8;
 
-  --text-muted: #a86373;
-  --interactive-muted: #cf92a0;
+  --text-muted: #7363a8;
+  --interactive-muted: #a092cf;
 
-  --header-secondary: #cf92a0;
-  --interactive-hover: #be7d8c;
-  --interactive-active: #b36f7f;
+  --header-secondary: #a092cf;
+  --interactive-hover: #8c7dbe;
+  --interactive-active: #7f6fb3;
 
   /* Background color */
   --background-primary: #ffffff;
-  --background-secondary: #ffeeee;
-  --background-secondary-alt: #fdc7c7;
-  --background-tertiary: #ffbbbb;
-  --background-floating: #ffbbbb;
-  --background-accent: #c5536c;
+  --background-secondary: #eeeeff;
+  --background-secondary-alt: #c7c7fd;
+  --background-tertiary: #bbbbff;
+  --background-floating: #bbbbff;
+  --background-accent: #6c53c5;
   --channeltextarea-background: var(--background-secondary);
-  --background-modifier-hover: rgba(56, 31, 31, 0.062);
-  --background-modifier-active: rgba(19, 12, 12, 0.123);
-  --background-modifier-selected: rgba(31, 21, 21, 0.11);
+  --background-modifier-hover: rgba(31, 31, 56, 0.062);
+  --background-modifier-active: rgba(12, 12, 19, 0.123);
+  --background-modifier-selected: rgba(21, 21, 31, 0.11);
 
   /* Scrollbar */
   --scrollbar-auto-thumb: var(--background-tertiary);
@@ -138,15 +137,15 @@
 
 /* Buttons */
 .lookFilled-1H2Jvj {
-  background-color: #c5536c !important;
+  background-color: #6c53c5 !important;
 }
 .lookFilled-1H2Jvj:active,
 .lookFilled-1H2Jvj:hover {
-  background-color: #b64a61 !important;
+  background-color: #5a4ab6 !important;
 }
 .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
-  color: #c5536c;
-  border-color: #c5536c;
+  color: #6c53c5;
+  border-color: #6c53c5;
 }
 
 /* Hover background */
